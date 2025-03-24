@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 0 24px;
+  height: 64px;
+  border-bottom: 1px solid #e0e0e0;
+
+  .left {
+    flex: 1;
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+  }
+
+  // เมนูทั้งหมด
+  :global(.ant-menu) {
+    background: transparent;
+    border-bottom: none;
+  }
+
+  // เมนูแต่ละ item
+  :global(.ant-menu-item) {
+    color: #555555;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: var(--font-geist-sans, sans-serif);
+    transition: background-color 0.2s;
+
+    &:hover {
+      background-color: #f2f2f2;
+      color: #333333;
+    }
+  }
+
+  // เมนูที่ active อยู่
+  :global(.ant-menu-item-selected) {
+    background-color: transparent !important;
+    color: #333333 !important;
+    font-weight: 600;
+    border-bottom: 2px solid #333333;
+  }
+}

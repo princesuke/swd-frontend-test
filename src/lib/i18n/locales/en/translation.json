@@ -1,0 +1,21 @@
+{
+  "menu": {
+    "home": "Home",
+    "shape": "Shape Control",
+    "person": "Person Manager"
+  },
+  "home": {
+    "test1": {
+      "title": "Test 1",
+      "desc": "Layout & Style"
+    },
+    "test2": {
+      "title": "Test 2",
+      "desc": "Connect API"
+    },
+    "test3": {
+      "title": "Test 3",
+      "desc": "Form & Table"
+    }
+  }
+}
