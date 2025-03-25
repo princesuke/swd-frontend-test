@@ -1,0 +1,97 @@
+.grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.row {
+  display: flex;
+  gap: 16px;
+  transition: all 0.3s ease;
+}
+
+.alignLeft {
+  margin-left: -100px;
+}
+
+.alignRight {
+  margin-left: 100px;
+}
+
+.card {
+  width: 220px;
+  height: 110px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.4s ease, background-color 0.3s ease;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+
+  &:hover {
+    background-color: #ffa200;
+  }
+
+  &:active {
+    background-color: #6eda78;
+  }
+}
+
+.shape {
+  width: 60px;
+  height: 60px;
+  background-color: #666;
+  transition: all 0.3s ease;
+  transform-origin: center;
+}
+
+.card:active .shape {
+  transform: scale(1.1);
+}
+
+.card:hover .shape {
+  background-color: white;
+}
+
+.shape1 .shape {
+  width: 80px;
+  height: 80px;
+  background-color: #555;
+}
+
+.shape2 .shape {
+  width: 72px;
+  height: 72px;
+  background-color: #555;
+  border-radius: 50%;
+}
+
+.shape3 .shape {
+  width: 120px;
+  height: 64px;
+  background-color: #555;
+  border-radius: 50% / 50%;
+}
+
+.shape4 .shape {
+  width: 140px;
+  height: 80px;
+  background-color: #555;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+}
+
+.shape5 .shape {
+  width: 160px;
+  height: 80px;
+  background-color: #555;
+}
+
+.shape6 .shape {
+  width: 100px;
+  height: 60px;
+  background-color: #555;
+  transform: skew(20deg);
+}

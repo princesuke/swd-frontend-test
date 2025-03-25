@@ -1,7 +1,7 @@
 {
   "menu": {
     "home": "Home",
-    "shape": "Shape Control",
+    "layout": "Layout & Style",
     "person": "Person Manager"
   },
   "home": {
@@ -17,5 +17,9 @@
       "title": "Test 3",
       "desc": "Form & Table"
     }
+  },
+  "layout": {
+    "move-shape": "Move Shape",
+    "move-position": "Move Position"
   }
 }

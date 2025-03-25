@@ -18,7 +18,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "React Interactive Dashboard",
+  title: "SWD | React Interactive Dashboard",
   description:
     "A modern single-page application featuring dynamic shape control and a localized person management system using Redux Toolkit and Ant Design.",
 };

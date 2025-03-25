@@ -1,0 +1,93 @@
+.grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 24px;
+}
+
+.controlBtn {
+  padding: 0 50px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+  position: relative;
+
+  &:hover {
+    background-color: #ffa200;
+  }
+
+  &:active {
+    background-color: #6eda78;
+  }
+
+  .titleBtn {
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #6eda78;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  margin-bottom: 8px;
+}
+
+.arrowLeft {
+  .arrow {
+    border-top: 48px solid transparent;
+    border-bottom: 48px solid transparent;
+    border-right: 88px solid #555;
+  }
+}
+
+.arrowRight {
+  .arrow {
+    border-top: 48px solid transparent;
+    border-bottom: 48px solid transparent;
+    border-left: 88px solid #555;
+  }
+}
+
+.arrowPair {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  width: 300px;
+}
+
+.arrowUp {
+  width: 0;
+  height: 0;
+  border-left: 48px solid transparent;
+  border-right: 48px solid transparent;
+  border-bottom: 80px solid #555;
+}
+
+.arrowDown {
+  width: 0;
+  height: 0;
+  border-left: 48px solid transparent;
+  border-right: 48px solid transparent;
+  border-top: 80px solid #555;
+}

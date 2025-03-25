@@ -26,8 +26,8 @@ export default function HomePage() {
     <div className={styles.container}>
       {cards.map((card, index) => (
         <Card key={index} className={styles.card}>
-          <h3 suppressHydrationWarning>{card.title}</h3>
-          <p suppressHydrationWarning>{card.description}</p>
+          <h3>{card.title}</h3>
+          <p>{card.description}</p>
         </Card>
       ))}
     </div>

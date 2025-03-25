@@ -20,6 +20,8 @@ const Header = () => {
   useEffect(() => {
     const storedLang = localStorage.getItem(LANG_KEY) || "en";
     setLang(storedLang);
+
+    console.log(storedLang);
   }, []);
 
   const changeLanguage = (value: string) => {
@@ -34,27 +36,15 @@ const Header = () => {
   const menuItems = [
     {
       key: "/",
-      label: (
-        <Link href="/" suppressHydrationWarning>
-          {t("menu.home")}
-        </Link>
-      ),
+      label: <Link href="/">{t("menu.home")}</Link>,
     },
     {
-      key: "/shape-control",
-      label: (
-        <Link href="/shape-control" suppressHydrationWarning>
-          {t("menu.shape")}
-        </Link>
-      ),
+      key: "/layout-style",
+      label: <Link href="/layout-style">{t("menu.layout")}</Link>,
     },
     {
       key: "/person-manager",
-      label: (
-        <Link href="/person-manager" suppressHydrationWarning>
-          {t("menu.person")}
-        </Link>
-      ),
+      label: <Link href="/person-manager">{t("menu.person")}</Link>,
     },
   ];
 
