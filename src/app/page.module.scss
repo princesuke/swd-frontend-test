@@ -15,8 +15,9 @@
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   text-align: center;
-  padding: 24px;
+  padding: 16px 24px;
   font-family: var(--font-geist-sans, sans-serif);
+  cursor: pointer;
 
   h3 {
     font-size: 18px;
@@ -28,4 +29,9 @@
     font-size: 14px;
     color: #666;
   }
+}
+
+.disabled {
+  cursor: auto;
+  opacity: 0.5;
 }

@@ -43,8 +43,8 @@ const Header = () => {
       label: <Link href="/layout-style">{t("menu.layout")}</Link>,
     },
     {
-      key: "/person-manager",
-      label: <Link href="/person-manager">{t("menu.person")}</Link>,
+      key: "/from-table",
+      label: <Link href="/from-table">{t("menu.from")}</Link>,
     },
   ];
 
