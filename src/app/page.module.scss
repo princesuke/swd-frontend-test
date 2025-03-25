@@ -19,6 +19,14 @@
   font-family: var(--font-geist-sans, sans-serif);
   cursor: pointer;
 
+  &:hover {
+    background-color: #ffa200;
+  }
+
+  &:active {
+    background-color: #6eda78;
+  }
+
   h3 {
     font-size: 18px;
     color: #333;

@@ -1,4 +1,3 @@
-// layout-style/components/ShapeGrid.tsx
 "use client";
 
 import styles from "../styles/shapeGrid.module.scss";

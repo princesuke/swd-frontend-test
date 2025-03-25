@@ -2,7 +2,7 @@
   "menu": {
     "home": "Home",
     "layout": "Layout & Style",
-    "from": "Form & Table"
+    "form": "Form & Table"
   },
   "home": {
     "test1": {
