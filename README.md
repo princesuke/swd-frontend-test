@@ -1,37 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📦 React + TypeScript + Next.js
 
-## Getting Started
+## 🧩 Feature Summary
 
-First, run the development server:
+### 1. Layout Style Page (Shape Control)
+
+- รองรับการแปลภาษาด้วย `i18next` (EN / TH)
+- ใช้ **Ant Design** จัด Layout ของปุ่ม
+- ปุ่มควบคุมการจัดเรียง shape:
+  - 🔁 **Move Shape** – เลื่อนรูปร่างแบบวนซ้าย/ขวา
+  - 🔀 **Move Position** – สลับแถวและจัดเรียงชิดซ้าย/ขวา
+  - 🎲 **Random** – คลิก shape เพื่อสุ่มตำแหน่งใหม่
+- รูปร่างสร้างด้วย **SCSS & CSS clip-path**
+- ใช้โทนสีหลักพื้นหลัง:
+  - `#FFA200` (ส้ม)
+  - `#6EDA78` (เขียว)
+
+### 2. Person Manager SPA
+
+- ใช้ **Redux Toolkit** จัดการสถานะของฟอร์ม
+- รองรับ **Create / Edit / Delete** และเก็บข้อมูลไว้ใน LocalStorage
+- เมื่อรีเฟรช หน้าเว็บข้อมูลยังคงอยู่
+- ตารางข้อมูลมี **Pagination**
+- รองรับการลบแบบรายบุคคล
+- รองรับการแปลภาษา (i18next)
+
+---
+
+## ▶️ การรันโปรเจกต์
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# swd-frontend-test
+โปรเจกต์นี้จัดโครงสร้างแบบ Clean Architecture
+แยก Feature ชัดเจนด้วย Feature-based Folder Structure บนพื้นฐานของ Next.js 14 App Router
