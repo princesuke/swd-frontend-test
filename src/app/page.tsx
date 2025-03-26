@@ -22,7 +22,7 @@ export default function HomePage() {
     {
       title: t("home.test3.title"),
       description: t("home.test3.desc"),
-      href: "/from-table",
+      href: "/form-table",
     },
   ];
 

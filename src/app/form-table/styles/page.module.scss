@@ -1,0 +1,51 @@
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+  min-height: 100vh;
+}
+
+.formContainer {
+  border-radius: 10px;
+  width: 100%;
+  max-width: 1000px;
+  padding: 14px;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+.formContainer h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.row-spacing {
+  margin-bottom: 2px;
+}
+
+.formButton {
+  padding: 10px;
+  font-size: 16px;
+  background: #fffcff;
+  color: black;
+  border: non;
+}
+
+.input-dash {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rowSelectAll {
+  width: 100%;
+  text-align: left;
+  margin: 38px 0;
+}
+
+.tableContainer {
+  width: 100%;
+}

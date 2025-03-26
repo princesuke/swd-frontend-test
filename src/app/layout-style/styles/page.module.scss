@@ -3,7 +3,5 @@
   flex-direction: column;
   align-items: center;
   padding: 40px 24px;
-  min-height: calc(100vh - 64px); /* ลบ header ออก */
   gap: 32px;
-  background: linear-gradient(to right top, #6eda78, #ffa200);
 }
