@@ -42,6 +42,7 @@ export default function RootLayout({
           }}
         >
           <Header />
+          {/* main */}
           <main>{children}</main>
         </ConfigProvider>
       </body>
